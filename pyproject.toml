@@ -1,0 +1,56 @@
+#---------------------------------------------------------------------------------------
+# Name:        pyproject (LoopSpeedPlugin)
+# Purpose:     Controlling Speed of Loop (File 4)
+# Format:      Tom's Obvious, Minimal Language .toml
+# Author:      ProHobby
+#
+# Created:     28/06/2026
+# Copyright:   (c) ProHobby 2026
+# Licence:     Hobbyist
+#---------------------------------------------------------------------------------------
+
+[project]
+name = "loopspeed"
+version = "0.1.0"
+description = "Manual and automatic loop speed controller for Python loops"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "Luke" }
+]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "psutil"
+]
+
+keywords = [
+    "loop",
+    "timing",
+    "performance",
+    "controller",
+    "autoscaler",
+    "cpu",
+    "real-time"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: System :: Monitoring"
+]
+
+[project.urls]
+Homepage = "https://github.com/prohobby91/loopspeed"
+Source = "https://github.com/prohobby91/loopspeed"
+Issues = "https://github.com/prohobby91/loopspeed"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
