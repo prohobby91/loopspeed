@@ -67,4 +67,8 @@ try:
         print(f"LPS={current_lps:.2f}, Loop={loop_time:.4f}s, CPU={cpu}%")
 
 except KeyboardInterrupt:
+<<<<<<< HEAD
     print("Stopped.")
+=======
+    print("Stopped.")
+>>>>>>> c3664ae3380bd00e94e71263024e293b128c44e1
